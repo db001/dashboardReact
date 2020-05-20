@@ -1,0 +1,90 @@
+/* 
+Facebook: hsl(195, 100%, 50%)
+Twitter: hsl(203, 89%, 53%)
+Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+YouTube: hsl(348, 97%, 39%) */
+
+.followerCard {
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: hsl(230, 17%, 14%);
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+    text-align: center;
+    width: calc(25% - 12px);
+}
+
+.followerCard .colorFlash {
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.followerCard.Facebook .colorFlash {
+    background-color: hsl(195, 100%, 50%);
+}
+.followerCard.Twitter .colorFlash {
+    background-color: hsl(203, 89%, 53%);
+}
+.followerCard.Instagram .colorFlash {
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+.followerCard.YouTube .colorFlash {
+    background-color: hsl(348, 97%, 39%);
+}
+
+.followerCard .header {
+    align-items: center;
+    color: hsl(228, 12%, 44%);
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.followerCard .header img {
+    height: 16px;
+    margin-right: 4px;
+    width: 16px;
+}
+
+.followerContainer {
+    margin: 16px 0;
+}
+
+.followerContainer .followerNumber {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.followerContainer div:last-child {
+    color: hsl(228, 12%, 44%);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.changeContainer {
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.changeContainer img {
+    margin-right: 4px;
+}
+
+.changeContainer span {
+    font-weight: 700;
+}
+
+.changeContainer .positive {
+    color: hsl(163, 72%, 41%);
+}
+
+.changeContainer .negative {
+    color: hsl(356, 69%, 56%);
+}
