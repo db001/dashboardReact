@@ -13,7 +13,7 @@ function SocialMediaCard(props) {
 
     return (
         <div className={`overviewCard ${mediaName}`}>
-            <div className="header">
+            <div className="cardHeader">
                 <div>{metric}</div>
                 <img alt="" src={icon} />
             </div>

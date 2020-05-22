@@ -1,0 +1,18 @@
+.headlineWrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1048px;
+    margin: 0 auto;
+    padding: 24px 0 80px;
+}
+
+.headlineContainer h1 {
+    font-size: 18px;
+}
+
+.headlineContainer p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 8px;
+}

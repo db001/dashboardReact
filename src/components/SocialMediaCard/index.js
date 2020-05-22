@@ -15,7 +15,7 @@ function SocialMediaCard(props) {
     return (
         <div className={`followerCard ${mediaName}`}>
             <div className="colorFlash"></div>
-            <div className="header">
+            <div className="handleContainer">
                 <img alt="" src={icon} />
                 <span>{handle}</span>
             </div>

@@ -1,18 +1,12 @@
 .overviewCard {
-    background-color: hsl(227, 47%, 96%);
     border-radius: 5px;
     box-sizing: border-box;
-    color: hsl(230, 17%, 14%);
     margin-top: 16px;
     padding: 16px;
     width: calc(25% - 12px);
 }
 
-.overviewCard:hover {
-    background-color: hsl(227, 47%, 91%);
-}
-
-.overviewCard .header {
+.overviewCard .cardHeader {
     align-items: center;
     color: hsl(228, 12%, 44%);
     display: flex;
@@ -21,7 +15,7 @@
     font-weight: 700;
 }
 
-.overviewCard .header img {
+.overviewCard .cardHeader img {
     height: 16px;
     margin-right: 4px;
     width: 16px;
@@ -41,7 +35,6 @@
 }
 
 .metricContainer .percentChangeContainer {
-    color: hsl(228, 12%, 44%);
     font-size: 12px;
     display: flex;
     align-items: center;

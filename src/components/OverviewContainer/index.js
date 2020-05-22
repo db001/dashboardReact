@@ -29,8 +29,8 @@ export class OverviewContainer extends Component {
 
         return (
             <div className="overviewContainer">
-                {this.state.cards.map(cardData => {
-                    return <OverviewCard key={cardData.mediaName} data={cardData} />
+                {this.state.cards.map((cardData, index) => {
+                    return <OverviewCard key={'Overview' + cardData.mediaName + index} data={cardData} />
                 })}
             </div>
         )
