@@ -45,6 +45,21 @@ body {
 }
 
 .followerContainer .followerName {
-    color: ${({ theme }) => theme.subText};;
+    color: ${({ theme }) => theme.subText};
+}
+
+.toggleContainer {
+    color: ${({ theme }) => theme.subText};
+}
+
+.toggleBody {
+    background-image: ${({ theme }) => theme.toggle};
+    background-color: ${({ theme }) => theme.toggle};
+}
+
+.toggleInner {
+    background-color: ${({ theme }) => theme.topBg};
+    left: ${({ theme }) => theme.togglePos};
+}
 
 `;

@@ -5,7 +5,8 @@ export const lightTheme = {
     cardBg: "hsl(227, 47%, 96%)",
     cardBgHover: "hsl(227, 47%, 96%)",
     subText: "hsl(228, 12%, 44%)",
-    mainText: "hsl(230, 17%, 14%)"
+    mainText: "hsl(230, 17%, 14%)",
+    togglePos: "2px"
 }
 
 export const darkTheme = {
@@ -15,5 +16,6 @@ export const darkTheme = {
     cardBg: "hsl(228, 28%, 20%)",
     cardBgHover: "hsl(228, 28%, 10%)",
     subText: "hsl(228, 34%, 66%)",
-    mainText: "hsl(0, 0%, 100%)"
+    mainText: "hsl(0, 0%, 100%)",
+    togglePos: "31px"
 }
