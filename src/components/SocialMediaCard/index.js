@@ -10,6 +10,8 @@ function SocialMediaCard(props) {
         changeNumber,
         positiveChange } = props.data;
 
+    const followerString = numberOfFollowers >= 10000 ? `${numberOfFollowers.toString().slice(0, 2)}k` : numberOfFollowers;
+
     return (
         <div className={`followerCard ${mediaName}`}>
             <div className="colorFlash"></div>
@@ -18,8 +20,8 @@ function SocialMediaCard(props) {
                 <span>{handle}</span>
             </div>
             <div className="followerContainer">
-                <div className="followerNumber">{numberOfFollowers}</div>
-                <div>{followerName}</div>
+                <div className="followerNumber">{followerString}</div>
+                <div className="followerName">{followerName}</div>
             </div>
             <div className="changeContainer">
                 <img alt="" src={positiveChange ? "images/icon-up.svg" : "images/icon-down.svg"} />

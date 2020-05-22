@@ -58,7 +58,7 @@
     font-weight: 700;
 }
 
-.followerContainer div:last-child {
+.followerContainer .followerName {
     color: hsl(228, 12%, 44%);
     font-size: 12px;
     letter-spacing: 3px;

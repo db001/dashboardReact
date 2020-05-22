@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialMediaCardContainer from './components/SocialMediaCardContainer';
+import OverviewContainer from './components/OverviewContainer'
 
 import './App.css';
 
@@ -8,6 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <SocialMediaCardContainer />
+        <OverviewContainer />
       </div>
     )
   }
