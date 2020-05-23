@@ -1,6 +1,7 @@
 .overviewCard {
     border-radius: 5px;
     box-sizing: border-box;
+    cursor: pointer;
     margin-top: 16px;
     padding: 16px;
     width: calc(25% - 12px);

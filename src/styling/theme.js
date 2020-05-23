@@ -3,7 +3,7 @@ export const lightTheme = {
     bodyBg: "hsl(0, 0%, 100%)",
     topBg: "hsl(225, 100%, 98%)",
     cardBg: "hsl(227, 47%, 96%)",
-    cardBgHover: "hsl(227, 47%, 96%)",
+    cardBgHover: "hsl(227, 47%, 91%)",
     subText: "hsl(228, 12%, 44%)",
     mainText: "hsl(230, 17%, 14%)",
     togglePos: "3px"

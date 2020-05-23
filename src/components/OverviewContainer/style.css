@@ -1,6 +1,6 @@
 .overviewContainer {
     max-width: 1048px;
-    margin: 0 auto;
+    margin: 32px auto 0;
     width: calc(100% - 32px);
 }
 
@@ -11,9 +11,6 @@
 }
 
 @media only screen and (max-width: 479px) {
-    .overviewContainer {
-        margin-top: 32px;
-    }
     .overviewCardWrapper {
         flex-direction: column;
     }
