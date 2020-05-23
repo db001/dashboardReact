@@ -1,8 +1,20 @@
 .overviewContainer {
+    max-width: 1048px;
+    margin: 0 auto;
+    width: calc(100% - 32px);
+}
+
+.overviewCardWrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1048px;
-    margin: 0 auto;
-    width: 100%;
+}
+
+@media only screen and (max-width: 479px) {
+    .overviewContainer {
+        margin-top: 32px;
+    }
+    .overviewCardWrapper {
+        flex-direction: column;
+    }
 }

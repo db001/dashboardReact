@@ -4,5 +4,11 @@
     max-width: 1048px;
     margin: 0 auto;
     margin-top: -48px;
-    width: 100%;
+    width: calc(100% - 32px);
+}
+
+@media only screen and (max-width: 479px) {
+    .cardsContainer {
+        flex-direction: column;
+    }
 }

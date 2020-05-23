@@ -26,8 +26,6 @@ export class App extends React.Component {
         theme: 'light'
       })
     }
-
-    console.log(this.state.theme)
   }
 
   render() {

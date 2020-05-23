@@ -22,3 +22,11 @@
     transition: all 0.25s linear;
     width: 16px;
 }
+
+@media only screen and (max-width: 479px) {
+    .toggleContainer {
+        margin-top: 32px;
+        padding-top: 32px;
+        width: 100%;
+    }
+}

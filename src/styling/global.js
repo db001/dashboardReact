@@ -10,10 +10,23 @@ body {
     background-color: ${({ theme }) => theme.topBg};
 }
 
+.headlineContainer h1 {
+    color: ${({ theme }) => theme.mainText};
+}
+
 .headlineContainer p {
     color: ${({ theme }) => theme.subText};
 }
 
+@media only screen and (max-width: 479px) {
+    .toggleContainer {
+        border-top: 1px solid ${({ theme }) => theme.subText};
+    }
+}
+
+h3 {
+    color: ${({ theme }) => theme.subText};
+}
 .overviewCard {
     background-color: ${({ theme }) => theme.cardBg};
     color: ${({ theme }) => theme.mainText};

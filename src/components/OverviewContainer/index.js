@@ -29,9 +29,12 @@ export class OverviewContainer extends Component {
 
         return (
             <div className="overviewContainer">
-                {this.state.cards.map((cardData, index) => {
-                    return <OverviewCard key={'Overview' + cardData.mediaName + index} data={cardData} />
-                })}
+                <h3>Overview - Today</h3>
+                <div className="overviewCardWrapper">
+                    {this.state.cards.map((cardData, index) => {
+                        return <OverviewCard key={'Overview' + cardData.mediaName + index} data={cardData} />
+                    })}
+                </div>
             </div>
         )
     }
